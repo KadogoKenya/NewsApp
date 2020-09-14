@@ -3,7 +3,7 @@
 ## The project was done using python3.6
 
 ### Description
-An application that helps us manage our passwords and even generate new passwords for us.As well as log in to our existing accouts
+An application that helps us remain updated on current issues arouond the world by providing news headlines and diffrent sources to reading the news.
 
 ### Created by :
 Cathrine Kanini
@@ -20,8 +20,7 @@ Setup/Installation requirements
 https://github.com/KadogoKenya/News-App.git
 
 2.You can use this command (git clone my link) to clone the project to your machine.
-
-3.cd into the folder which contains the files.
+3. cd into the folder which contains the files.
 
 4.Run python3.6 News-App.py to launch the program.
 
