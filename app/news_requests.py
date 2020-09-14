@@ -6,10 +6,12 @@ import requests
 api_key = None
 s_url = None
 art_url = None
+secret_key=None
 
 def configure_request(app):
-    global api_key,s_url,art_url
+    global api_key,s_url,art_url,secret_key
     api_key = app.config['API_KEY']
+    secret_key = app.config['SECRET_KEY']
     articles_url = app.config['SOURCE_ARTICLES_URL']
     s_url = app.config['NEWS_API_BASE_URL']
     art_url = app.config['NEWS_ARTICLES_APL_URL']
